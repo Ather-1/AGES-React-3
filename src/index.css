@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --color-dark2 : #151616;
+    --color-txtd : #23232b;
+    --color-dark1 : #302840;
+    --color-light : #f2f3f5;
+
+    --color-txt1: #f7b705;
+
+
+    --color-btnb: #103659;
+    --color-btnf: white;
+
+
+
+
+    --color-BackGround: #f2f3f5;
+    --color-Txtdark1: #302840;
+
+
+
+    --color-BtnBg1: #103659;
+    --color-BtnTxt1: #ffff;
+    --color-BtnBdr1: gray;
+}
+
+html, body {
+    font-family: "Nunito", sans-serif;
+    background-color: #f2f3f5;
+}
+
+.LRP {
+    @apply w-[95%] max-w-[1600px] mx-auto py-16;
+}
+
+.Adjust {
+    width: 95%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* width: 95%;
+max-width: 1600px;
+margin: 0 auto;
+padding: 50px 0 50px 0; */
